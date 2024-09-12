@@ -1,10 +1,10 @@
-#Brand Image Recognition with CLIP
+Brand Image Recognition with CLIP
 
-#Overview
+Overview
 
 This project aims to classify product images based on their brand using the CLIP model. The CLIP (Contrastive Language-Image Pretraining) model, developed by OpenAI, enables learning visual concepts from textual descriptions.
 
-#Project Structure
+Project Structure
 
 Data Preparation: Images and brand labels are used to train and evaluate the model.
 Data Augmentation: The dataset has been augmented to improve model performance and robustness.
@@ -14,11 +14,11 @@ Files and Directories
 
 brands.csv: CSV file containing the image filenames and their corresponding brand names.
 brandsImages/: Directory containing images of the products.
-#Setup
+Setup
 
-#Install Dependencies
+Install Dependencies
 Ensure you have Python and the necessary libraries installed.
 
-#Prepare Data
+Prepare Data
 First, files are created after the dataset is augmented. To do this, run the file PrepareData.py . Ensure that the augmented_brands.csv file and augmentedBrandsImages directory are in the correct locations specified in the script.
 First, files are created after the dataset is augmented. To do this, run the file PrepareData.py . And only after that run the main file TrainModel.py
