@@ -17,7 +17,8 @@ brandsImages/: Directory containing images of the products.
 Setup
 
 Install Dependencies
-Ensure you have Python and the necessary libraries installed.
+Ensure you have Python and the necessary libraries installed. To create a new environment based on environment.yml file, use the command:
+conda env create -f environment.yml
 
 Prepare Data
 First, files are created after the dataset is augmented. To do this, run the file PrepareData.py . Ensure that the augmented_brands.csv file and augmentedBrandsImages directory are in the correct locations specified in the script.
